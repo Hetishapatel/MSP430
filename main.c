@@ -1,10 +1,10 @@
-/************************************************************************************************************
+/*********************************************************************************************************************************************************
  * date of creation: 9/24/2021
- * Authors: Hetisha Patel and Parshva Gandhi
- * The code take potentiometer reading on one msp430 board give digital value and turn on led, it also passes the same dutycycle
- * value to second msp430 board using uart communication and turn on led connected to that board.
+ * Authors: Hetisha Patel 
+ * The code take potentiometer reading on one msp430 board give digital value using on board ADC and turn on led, it also passes the same dutycycle
+   value to second msp430 board using uart communication and turn on led connected to that board.
  * The code is robust for sender and receiver board
- */
+ *********************************************************************************************************************************************************/
 
 #include "msp430g2553.h"
 #include "common.h"
