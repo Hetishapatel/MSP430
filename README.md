@@ -2,6 +2,7 @@
 
 The code is for UART communication between 2 MSP430 boards and is written in Embedded C
 If the pin P2.5 is connected to Vcc then the board transmit and if it ground then the board works as receiver.
+API are created for user 
 
 # Transmitter
 
